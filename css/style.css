@@ -1,0 +1,872 @@
+
+/* ==--==--===---=====--===---====--===--===--===--=
+  Template Name : Veer Index
+  Created By    : Sheikh Al Imran
+  Envato Profile: https://www.facebook.com/al.imran.sujon.as160/
+  Website       : https://www.webdesignbd.net
+  Version       : 1.0.0
+  Support       : sheikhalimransujon@gmail.com
+==--==--===---=====--===---====--===--===--===--====*/
+
+
+/* ==--==--===---=====--===---====--===--===--===--=
+              [ CSS TABLE CONTENT]
+          -----------------------------
+    01 - General
+    02 - Typography
+    03 - Global Settings
+    04 - Header Area
+    05 - Cover Area
+    06 - About Area
+    07 - Service Area
+    08 - Work Area
+    09 - Review Area
+    10 - Client Count
+    11 - Blog Area
+    12 - Contact Area
+    13 - Footer Area
+    14 - Top btn
+
+==--==--===---=====--===---====--===--===--===--====*/
+
+
+/* ==============
+  Google Fonts
+================*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500&display=swap');
+
+/* ==================================
+    font family
+------------------
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+====================================*/
+
+/* ===============
+  01 - General
+==================*/
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+
+/* ===============
+  02 - Typography
+==================*/
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===================
+  03 - Global Settings
+=======================*/
+
+
+
+/* ===================
+  04 - Header Area
+=======================*/
+
+
+.veer-header{
+ /* position: fixed; */
+ z-index: 5;
+}
+.veer-logo{
+  padding: 20px 30px;
+  display: block;
+}
+.veer-menu{
+  margin-left: 200px;
+}
+.veer-menu ul{
+  display: flex;
+  justify-content: flex-end;
+}
+.veer-menu ul li a{
+  color: #000;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: 550;
+  padding: 20px 30px;
+  display: block;
+  transition: .5s;
+}
+.veer-menu ul li a:hover{
+  color: #63e1da;
+}
+.veer-menu ul li a.active{
+  color: #63e1da;
+  transition: .5s;
+}
+.veer-menu ul li a.active:hover{
+  color: black;
+}
+
+/* Mobile Responsive menu */
+.mobile-menu-icon{
+  display: none;
+}
+.mobile-menu{
+  display: none;
+}
+
+/* ===================
+  05 - Cover Area
+=======================*/
+
+.cover-img-2{
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+/* slider btn */
+
+.owl-prev span{
+  font-size: 80px;
+  position: absolute;
+  top: 36%;
+  left: 30px;
+  color: #fff;
+}
+.owl-next span{
+  font-size: 80px;
+  position: absolute;
+  top: 36%;
+  right: 30px;
+  color: #fff;
+} 
+
+/* slider btn end */
+
+
+
+.veer-cover-area{
+  padding-top: 0px;
+}
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 6;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  z-index: 1;
+}
+.title h1{
+  color: #31d7ce;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 40px;
+}
+.title h2{
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  font-size: 40px;
+  border: 2px solid;
+  padding: 10px;
+}
+.veer-cover-title-srction button{
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  color: #07cfc4;
+  background: transparent;
+  border: 2px solid #6f9391;
+  z-index: 7;
+  transform: translate(-50%, -50%);
+  padding: 10px 18px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  transition: .5s;
+  z-index: 1;
+}
+.veer-cover-title-srction button:hover{
+  background: #07cfc4;
+  color: #fff;
+  border: none;
+}
+.icon i {
+  position: absolute;
+  top: 63%;
+  left: 55.5%;
+  z-index: 7;
+  font-size: 10px;
+  padding: 15px 15px;
+  transform: translate(-50%, -50%);
+  background-color: #6f9492;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+}
+.video-icon{
+  width: 30%;
+  z-index: 1;
+}
+.social-icon{
+  position: absolute;
+  top: 85%;
+  left: 1%;
+  z-index: 7;
+  font-size: 13px;
+}
+.social-icon i{
+  padding: 0 3px;
+  color: #fff;
+  transition: .3s;
+}
+.social-icon i:hover{
+  color: red;
+}
+
+/* ===================
+  06 - About Area
+=======================*/
+
+.veer-about-area{
+  background-color: #fff;
+  padding: 117px 0;
+}
+.veer-about-title{
+ margin-bottom: 100px;
+ text-align: center;
+}
+.veer-about-title h1{
+  font-size: 40px;
+  font-weight: bold;
+  color: #252525;
+}
+.name-address{
+  display: flex;
+  justify-content: space-between;
+}
+.address h6{
+ color: #191919;
+ font-size: 16px;
+ padding: 5px 0;
+}
+.address-details{
+ margin-left: -110px;
+ color: #6c6c6c;
+}
+.address-details h6{
+ font-size: 16px;
+ padding: 5px 0;
+}
+.aboutme-contact-section i{
+  color: #6c6c6c;
+  padding: 0 5px;
+  margin-top: 60px;
+  transition: .4s;
+}
+.aboutme-contact-section i:hover{
+  color: #1c3df5;
+}
+.aboutme-details-section p{
+ color: #9a9191;
+ margin-bottom: 38px;
+}
+.aboutme-details-section button{
+  background: transparent;
+  border: 1px solid #9a9191;
+  padding: 10px;
+  color: #9a9191;
+  transition: .5s;
+}
+.aboutme-details-section button:hover{
+  background: #07cfc4;
+  color: #fff;
+  border: none;
+}
+.aboutme-skills-section h2{
+ color: #858585;
+ font-size: 26px;
+ font-weight: bold;
+ margin-bottom: 36px;
+}
+.photoshop{
+  position: relative;
+}
+.photoshop p{
+  position: absolute;
+  top: 0px;
+  right: 85px;
+  font-weight: bold;
+ }
+.photoshop h6{
+ margin-bottom: 45px;
+}
+.photoshop h6::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 8px;
+  background-color: #ebebeb;
+  margin-top: 10px;
+}
+.photoshop h6::before{
+  content: '';
+  display: block;
+  width: 80%;
+  height: 8px;
+  background-color: #12d6fc;
+  position: absolute;
+  top: 29px;
+  left: 0;
+}
+.web{
+ position: relative;
+}
+.web h6{
+  margin-bottom: 45px;
+}
+.web h6::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 8px;
+  background-color: #ebebeb;
+  margin-top: 10px;
+}
+.web h6::before{
+  content: '';
+  display: block;
+  width: 80%;
+  height: 8px;
+  background-color: #12d6fc;
+  position: absolute;
+  top: 29px;
+  left: 0;
+}
+.web p{
+  position: absolute;
+  top: 0px;
+  right: 85px;
+  font-weight: bold;
+ }
+.Illustrator{
+ position: relative;
+}
+.Illustrator h6{
+  margin-bottom: 45px;
+}
+.Illustrator h6::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 8px;
+  background-color: #ebebeb;
+  margin-top: 10px;
+}
+.Illustrator h6::before{
+  content: '';
+  display: block;
+  width: 94%;
+  height: 8px;
+  background-color: #12d6fc;
+  position: absolute;
+  top: 29px;
+  left: 0;
+}
+.Illustrator p{
+  position: absolute;
+  top: 0px;
+  right: 40px;
+  font-weight: bold;
+}
+.ui-ux{
+ position: relative;
+}
+.ui-ux h6{
+  margin-bottom: 45px;
+}
+.ui-ux h6::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 8px;
+  background-color: #ebebeb;
+  margin-top: 10px;
+}
+.ui-ux h6::before{
+  content: '';
+  display: block;
+  width: 75%;
+  height: 8px;
+  background-color: #12d6fc;
+  position: absolute;
+  top: 29px;
+  left: 0;
+}
+.ui-ux p{
+  position: absolute;
+  top: 0px;
+  right: 110px;
+  font-weight: bold;
+}
+
+/* ===================
+  07 - Service Area
+=======================*/
+
+.veer-service-area{
+ padding-bottom: 117px;
+}
+.our-services{
+  display: flex;
+  justify-content: space-between;
+}
+ .service-1:hover{
+  border: 4px solid #edfcfb;
+  box-shadow: 1px 2px 7px #edfcfb;
+}
+.service-2:hover{
+  border: 4px solid #edfcfb;
+  box-shadow: 1px 2px 7px #edfcfb;
+}
+.service-3:hover{
+  border: 4px solid #edfcfb;
+  box-shadow: 1px 2px 7px #edfcfb;
+}
+.service-detail{
+  margin-right: 100px;
+}
+.service-detail h5{
+ text-transform: uppercase;
+ font-size: 16px;
+ color: #444444;
+}
+.service-detail p{
+ color: #555555;
+ font-size: 14px;
+}
+
+/* ================
+  08 - Work Area
+================== */
+.veer-work-area{
+  padding-bottom: 100px;
+}
+.work-menu{
+  padding-bottom: 35px;
+  margin-top: -60px;
+  text-align: center;
+}
+.button-group button{
+  background: transparent;
+  border: none;
+}
+.work-menu .active{
+  color: #53e1fd;
+}
+.product-img{
+  position: relative;
+  cursor: pointer;
+}
+.product-img::before{
+  content: '';
+  display: block;
+  width: 89%;
+  height: 370px;
+  background: rgba(47, 197, 190, 50%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: .5s;
+}
+.product-img:hover::before{
+  opacity: 9;
+}
+.product-img i.fa-heart{
+  position: absolute;
+  top: 20px;
+  right: 70px;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0;
+  transition: .5s;
+}
+.product-img:hover  i.fa-heart{
+  opacity: 9;
+}
+.product-img i.fa-plus{
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  color: #ffff;
+  font-size: 40px;
+  transform: translate(-50%, -50%);
+  transition: .5s;
+  opacity: 0;
+}
+.product-img:hover i.fa-plus{
+  opacity: 9;
+}
+.product-img h4{
+  position: absolute;
+  top: 80%;
+  left: 20px;
+  color: #fff;
+  transition: .5s;
+  opacity: 0;
+}
+.product-img:hover h4{
+  opacity: 9;
+}
+.product-img p{
+  position: absolute;
+  top: 89%;
+  left: 20px;
+  color: #fff;
+  opacity: 0;
+  transition: .5s;
+}
+.product-img:hover p{
+  opacity: 9;
+}
+
+
+
+.product-img-2{
+  position: relative;
+  left: -20px;
+  cursor: pointer;
+ }
+ .product-img-2::before{
+  content: '';
+  display: block;
+  width: 89%;
+  height: 370px;
+  background: rgba(47, 197, 190, 50%);
+  position: absolute;
+  top: 0;
+  left: 20px;
+  opacity: 0;
+  transition: .5s;
+}
+.product-img-2:hover::before{
+  opacity: 7;
+}
+.product-img-2 i.fa-heart{
+  position: absolute;
+  top: 20px;
+  right: 70px;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0;
+  transition: .5s;
+}
+.product-img-2:hover  i.fa-heart{
+  opacity: 9;
+}
+.product-img-2 i.fa-plus{
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  color: #ffff;
+  font-size: 40px;
+  transform: translate(-50%, -50%);
+  transition: .5s;
+  opacity: 0;
+}
+.product-img-2:hover i.fa-plus{
+  opacity: 9;
+}
+.product-img-2 h4{
+  position: absolute;
+  top: 70%;
+  left: 40px;
+  color: #fff;
+  transition: .5s;
+  opacity: 0;
+}
+.product-img-2:hover h4{
+  opacity: 9;
+}
+.product-img-2 p{
+  position: absolute;
+  top: 77%;
+  left: 40px;
+  color: #fff;
+  opacity: 0;
+  transition: .5s;
+}
+.product-img-2:hover p{
+  opacity: 9;
+}
+
+
+/* ===============
+  09 - Review Area
+==================*/
+
+.veer-review-area{
+  padding: 120px 0;
+  background: url(../images/slider-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+.review-title{
+  text-align: center;
+  padding-top: 140px;
+  position: relative;
+}
+.review-title h1{
+  color: #fff;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 36px;
+}
+.review-title h6{
+  color: #bbbbbb;
+  font-size: 12px;
+}
+.review-title p{
+  color: #9d9c9c;
+  font-size: 14px;
+  margin-bottom: 70px;
+}
+.review-title button{
+  background: #31d7cd;
+  border: none;
+  padding: 10px;
+  width: 160px;
+  height: 50px;
+  border-radius: 60px;
+  color: #fff;
+}
+
+
+/* =================
+  10 - Client Count
+==================== */
+
+.veer-client-count{
+ background-color: #eaeaea;
+ padding: 40px 0;
+ text-align: center;
+}
+.cup-of-coffe-logo{
+  padding: 10px 0; 
+}
+.client-count-logo h3{
+ font-size: 30px;
+ color: #222222;
+}
+.client-count-logo p{
+  font-size: 15px;
+  color: #656565;
+}
+
+/* =================
+  11 - Blog Area
+==================== */
+
+.veer-blog-area{
+ padding: 120px 0;
+}
+.blog-title{
+ text-align: center;
+ padding-bottom: 40px;
+}
+.blog-title h1{
+ font-size: 40px;
+ color: #252525;
+ font-weight: bold;
+}
+.blog-all-img h4{
+ padding: 15px 0;
+ color: #333333;
+ font-size: 18px;
+}
+.blog-all-img p{
+ color: #666666;
+ font-size: 15px;
+}
+.blog-all-img a{
+ color: #555555;
+ font-size: 10px;
+ text-transform: uppercase;
+}
+.blog-all-img a:hover{
+  color: hsl(249, 94%, 45%);
+ }
+.blog-all-img i{
+ font-size: 15px;
+ margin-left: 6px;
+}
+
+/* =================
+  12 - Contact Area
+==================== */
+
+
+.contact-area{
+  display: flex;
+}
+.location-map{
+  width: 100%;
+}
+.form{
+  background: url(../images/contact-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+}
+form{
+  margin-top: 84px;
+}
+form input{
+  display: block;
+  margin-left: 33px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 10px;
+  width: 350px;
+  height: 60px;
+  outline: none;
+  color: #fff;
+}
+form textarea{
+  display: block;
+  color: #ffff;
+  margin-left: 133px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 10px;
+  width: 350px;
+  height: 100px;
+  outline: none;
+  margin-bottom: 10px;
+}
+form button{
+  display: block;
+  margin-top: 40px;
+  margin-left: 133px;
+  height: 42px;
+  width: 140px;
+  border: none;
+  background: #95a791;
+  color: #fff;
+}
+
+/* =================
+  13 - footer Section
+==================== */
+.veer-footer-area{
+  background: rgba(0, 4, 21, 100%);
+  color: #fff;
+  padding-top: 82px;
+  padding-bottom: 40px;
+}
+.footer-main-section{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-section-1{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo h4{
+  font-size: 18px;
+  margin-top: 10px;
+}
+.footer-span{
+  background: #373637;
+  width: 90px;
+  height: 2px;
+  transform: rotate(90deg);
+  margin-top: 40px;
+}
+.footer-address-icon i.fa-phone-volume{
+  margin-left: 40px;
+  padding: 10px;
+  font-size: 30px;
+}
+.footer-address-icon i.fa-home{
+  margin-left: 40px;
+  padding: 10px;
+  font-size: 30px;
+}
+.footer-title{
+  padding-top: 50px;
+  text-align: center;
+}
+
+.footer-sub-menu{
+  background: black;
+  margin-top: 100px;
+}
+.sub-menu ul{
+  display: flex;
+  justify-content: center;
+}
+.sub-menu ul li a{
+  color: #626262;
+  padding: 10px 15px;
+  display: block;
+  font-size: 20px;
+}
+#active a{
+  color: #fff;
+  background: #0051f4;
+}
+.sub-menu ul li a:hover{
+  color: #fff;
+  background: #0051f4;
+}
+.footer-title-end p{
+  color: #626262;
+}
+
+
+/* =================
+  14 - Scroll btn
+==================== */
+
+.scroll-btn{
+ background-color: #a4b0be;
+ position: fixed;
+ width: 50px;
+ height: 50px;
+ top: 90%;
+ right: 50px;
+ z-index: 8;
+}
+.scroll-btn a{
+  color: #000;
+  padding: 30px 10px;
+  font-size: 30px;
+}
+
+
+
+                                /* =========================================================
+
+                                                            END
+
+                                ============================================================*/
